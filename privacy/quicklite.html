@@ -1,0 +1,663 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f9fc">
+  <meta name="description" content="Read the QuickScan Lite Privacy Policy. Learn how your documents are stored locally and how advertising services handle data.">
+  <title>Privacy Policy | QuickScan Lite</title>
+
+  <style>
+    :root {
+      --bg: #f8f9fc;
+      --surface: #ffffff;
+      --primary: #171b32;
+      --accent: #d79b31;
+      --accent-light: #fff7e8;
+      --text: #202438;
+      --muted: #697386;
+      --border: #e9edf3;
+      --shadow: 0 8px 35px rgba(20, 30, 60, .045);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: #9c6410;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 4px;
+    }
+
+    .container {
+      width: min(calc(100% - 40px), 900px);
+      margin: auto;
+    }
+
+    .topbar {
+      background: white;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .topbar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 76px;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--primary);
+      font-weight: 800;
+      letter-spacing: -.4px;
+    }
+
+    .brand:hover {
+      text-decoration: none;
+    }
+
+    .brand-icon {
+      display: grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 13px;
+      background: var(--primary);
+      color: #f6c453;
+      font-size: 24px;
+      font-weight: 800;
+    }
+
+    .top-link {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .hero {
+      padding: 78px 0 50px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 15px;
+      background: var(--accent-light);
+      border: 1px solid #f6e4be;
+      border-radius: 100px;
+      color: #936213;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .6px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      margin: 22px 0 14px;
+      color: var(--primary);
+      font-size: clamp(34px, 6vw, 54px);
+      font-weight: 800;
+      letter-spacing: -2px;
+      line-height: 1.12;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .updated {
+      margin-top: 23px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .privacy-highlight {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 25px;
+      margin-bottom: 28px;
+      background: var(--accent-light);
+      border: 1px solid #f2dfb6;
+      border-radius: 18px;
+    }
+
+    .highlight-icon {
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      flex-shrink: 0;
+      border-radius: 13px;
+      background: white;
+      color: #a76c13;
+      font-size: 22px;
+    }
+
+    .privacy-highlight h2 {
+      margin: 0 0 5px;
+      font-size: 18px;
+      color: var(--primary);
+    }
+
+    .privacy-highlight p {
+      margin: 0;
+      font-size: 14px;
+      color: #735e3a;
+    }
+
+    .sections {
+      display: grid;
+      gap: 18px;
+    }
+
+    .section {
+      padding: 32px 36px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .section-number {
+      display: grid;
+      place-items: center;
+      width: 37px;
+      height: 37px;
+      flex-shrink: 0;
+      border-radius: 11px;
+      background: #f6f7fa;
+      color: #aa741d;
+      font-weight: 800;
+      font-size: 13px;
+    }
+
+    .section h2 {
+      margin: 0;
+      font-size: 21px;
+      color: var(--primary);
+      line-height: 1.35;
+      letter-spacing: -.5px;
+    }
+
+    .section p {
+      margin: 0 0 15px;
+      color: #50596d;
+      font-size: 15px;
+    }
+
+    .section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .section ul {
+      margin: 10px 0 18px;
+      padding-left: 24px;
+      color: #50596d;
+      font-size: 15px;
+    }
+
+    .section li {
+      margin-bottom: 9px;
+    }
+
+    .section strong {
+      color: var(--primary);
+    }
+
+    .contact-card {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+      margin-top: 20px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: #f9fafc;
+    }
+
+    .contact-icon {
+      display: grid;
+      place-items: center;
+      width: 43px;
+      height: 43px;
+      flex-shrink: 0;
+      border-radius: 12px;
+      background: var(--primary);
+      color: white;
+      font-size: 20px;
+    }
+
+    .contact-details {
+      min-width: 0;
+    }
+
+    .contact-details small {
+      display: block;
+      color: var(--muted);
+      margin-bottom: 3px;
+    }
+
+    .contact-details a {
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 30px 0 38px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    footer strong {
+      color: var(--primary);
+    }
+
+    @media (max-width: 650px) {
+      .container {
+        width: min(calc(100% - 28px), 900px);
+      }
+
+      .topbar-inner {
+        min-height: 67px;
+      }
+
+      .hero {
+        padding: 52px 0 36px;
+      }
+
+      .hero h1 {
+        letter-spacing: -1.3px;
+      }
+
+      .privacy-highlight {
+        padding: 20px;
+      }
+
+      .section {
+        padding: 24px 20px;
+        border-radius: 16px;
+      }
+
+      .section h2 {
+        font-size: 19px;
+      }
+
+      .section p,
+      .section ul {
+        font-size: 14px;
+      }
+
+      .section-header {
+        gap: 11px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <span class="brand-icon">Q</span>
+        <span>QuickScan Lite</span>
+      </div>
+      <span class="top-link">Legal &amp; Privacy</span>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="hero">
+      <div class="eyebrow">Privacy &amp; Transparency</div>
+      <h1>Privacy Policy</h1>
+      <p>
+        Your documents matter. Learn how QuickScan Lite
+        handles your files, permissions, and advertising data.
+      </p>
+      <div class="updated">
+        Last updated: October 18, 2026
+      </div>
+    </div>
+
+    <aside class="privacy-highlight">
+      <div class="highlight-icon" aria-hidden="true">✓</div>
+      <div>
+        <h2>Your documents stay on your device</h2>
+        <p>
+          QuickScan Lite is designed for local document
+          processing. Your scanned documents and PDF files
+          are not uploaded to QuickScan Lite servers.
+          Advertising services may separately process
+          device and advertising-related information.
+        </p>
+      </div>
+    </aside>
+
+    <div class="sections">
+
+      <section class="section">
+        <div class="section-header">
+          <span class="section-number">01</span>
+          <h2>Introduction</h2>
+        </div>
+        <p>
+          Welcome to QuickScan Lite, an offline document
+          scanner and PDF toolbox.
+        </p>
+        <p>
+          This Privacy Policy explains how QuickScan Lite
+          handles information when you use our application.
+          By using the app, you acknowledge the data
+          practices described in this policy.
+        </p>
+        <p>
+          QuickScan Lite is designed to process documents
+          locally without requiring user registration or
+          uploading document contents to our servers.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <span class="section-number">02</span>
+          <h2>Information stored on your device</h2>
+        </div>
+        <p>
+          QuickScan Lite stores document-related information
+          locally on your device, including:
+        </p>
+        <ul>
+          <li>Scanned document images and pages</li>
+          <li>Imported images and PDF files</li>
+          <li>Generated PDF documents</li>
+          <li>Document names and app preferences</li>
+          <li>Temporary files used during processing</li>
+        </ul>
+        <p>
+          QuickScan Lite does not upload these document
+          contents to its own servers.
+        </p>
+        <p>
+          Local data can be removed using available
+          document-deletion controls. Uninstalling the
+          app generally removes data in the app's private
+          storage, subject to your device's backup and
+          storage settings. Exported files may remain
+          outside the app.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <span class="section-number">03</span>
+          <h2>Camera and file permissions</h2>
+        </div>
+        <p>
+          QuickScan Lite may request access to certain
+          device features to provide scanning and
+          document-management functions.
+        </p>
+        <ul>
+          <li>
+            <strong>Camera:</strong> Used to capture
+            document pages when you choose to scan.
+          </li>
+          <li>
+            <strong>Photos and files:</strong> Used to
+            select images or PDFs for importing and
+            processing.
+          </li>
+          <li>
+            <strong>Storage:</strong> Used to save,
+            export, and manage documents as supported
+            by your device.
+          </li>
+        </ul>
+        <p>
+          These permissions are used for document
+          functionality and not for uploading your
+          personal documents to our servers.
+          Permissions can be managed through your
+          device settings.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <span class="section-number">04</span>
+          <h2>Advertising and third-party services</h2>
+        </div>
+        <p>
+          QuickScan Lite uses Google AdMob to display
+          advertisements, including banner,
+          interstitial, and rewarded-interstitial ads.
+        </p>
+        <p>
+          Google AdMob and its advertising partners may
+          collect or process certain information, such as:
+        </p>
+        <ul>
+          <li>Advertising identifiers and device identifiers</li>
+          <li>Advertising interactions and usage information</li>
+          <li>Device, app, and diagnostic information</li>
+          <li>
+            Information used to deliver, measure,
+            secure, and improve advertisements
+          </li>
+        </ul>
+        <p>
+          Advertising-related processing is governed
+          by applicable consent requirements and the
+          relevant third-party privacy policies.
+          Advertising providers may process data
+          on servers outside your device.
+        </p>
+        <p>
+          For more information, please read
+          <a href="https://policies.google.com/privacy"
+             target="_blank"
+             rel="noopener noreferrer">
+            Google's Privacy Policy
+          </a>.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <span class="section-number">05</span>
+          <h2>Accounts, payments, and analytics</h2>
+        </div>
+        <p>
+          QuickScan Lite does not require users to
+          create an account or sign in to use its
+          document scanning features.
+        </p>
+        <p>
+          We do not operate a cloud account system
+          or a remote document-processing service.
+          QuickScan Lite does not operate its own
+          analytics or user-profiling service.
+        </p>
+        <p>
+          Third-party advertising services may
+          independently collect advertising,
+          measurement, and diagnostic information
+          as described in the previous section.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <span class="section-number">06</span>
+          <h2>Data security</h2>
+        </div>
+        <p>
+          QuickScan Lite is designed to keep scanned
+          documents and generated files on your device.
+          Local document protection also depends on
+          your device's security settings.
+        </p>
+        <p>
+          We encourage you to keep your device
+          updated and use appropriate screen-lock
+          and device-security features.
+        </p>
+        <p>
+          No method of electronic storage or
+          transmission can be guaranteed to
+          be completely secure.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <span class="section-number">07</span>
+          <h2>Data retention and deletion</h2>
+        </div>
+        <p>
+          Your locally stored documents remain
+          available until you delete them,
+          clear application data, or uninstall
+          the application, depending on your
+          device and backup settings.
+        </p>
+        <p>
+          You can manage or delete saved documents
+          using the app's available controls.
+          Files exported to other locations must
+          be deleted separately from those locations.
+        </p>
+        <p>
+          Advertising providers may retain data
+          in accordance with their own privacy
+          and retention policies.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <span class="section-number">08</span>
+          <h2>Children's privacy</h2>
+        </div>
+        <p>
+          QuickScan Lite is a general productivity
+          application and is not specifically
+          directed toward children.
+        </p>
+        <p>
+          We do not knowingly collect children's
+          personal document contents through
+          our own servers.
+          Third-party advertising practices
+          are subject to applicable laws and
+          platform policies.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <span class="section-number">09</span>
+          <h2>Changes to this Privacy Policy</h2>
+        </div>
+        <p>
+          We may update this Privacy Policy to
+          reflect changes in application features,
+          third-party services, legal requirements,
+          or privacy practices.
+        </p>
+        <p>
+          Any revised policy will be published
+          on this page with an updated
+          "Last updated" date.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <span class="section-number">10</span>
+          <h2>Contact us</h2>
+        </div>
+        <p>
+          If you have questions, concerns, or
+          privacy-related requests regarding
+          QuickScan Lite, you can contact the
+          application developer by email.
+        </p>
+
+        <div class="contact-card">
+          <div class="contact-icon" aria-hidden="true">✉</div>
+          <div class="contact-details">
+            <small>Developer support email</small>
+            <a href="mailto:kumaran2026dev@gmail.com">
+              kumaran2026dev@gmail.com
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <strong>QuickScan Lite</strong>
+      <p>© 2026 QuickScan Lite. All rights reserved.</p>
+      <p>Built with care for your documents and privacy.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
